@@ -27,7 +27,6 @@ for i in range(3):
             link = driver.find_element(By.PARTIAL_LINK_TEXT)
             link.click()
             possible_hackathons.append(driver.current_url)
-            break
         except:
             continue    
     time.sleep(5)

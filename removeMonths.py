@@ -7,6 +7,6 @@ def removeMonths(months):
     while month != months[0]:
         months.remove(months[0])
     return months
-months.remove(months[0])
-
+removeMonths(months)
+months.remove(month)
 
