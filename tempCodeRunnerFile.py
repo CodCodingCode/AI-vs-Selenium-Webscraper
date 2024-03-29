@@ -1,1 +1,2 @@
-gLF
+
+def removeMonths(months):
