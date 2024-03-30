@@ -20,7 +20,7 @@ for company in list:
         input_element.clear()
         search_query = f"{company} Hackathon '{months[0]}' 2024"
         input_element.send_keys(search_query + Keys.ENTER)
-        link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, f"{months[0]}")))
+        link = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.PARTIAL_LINK_TEXT, "hackathon")))
         link.click()
         time.sleep(5)
         possible_hackathons.append(driver.current_url)
