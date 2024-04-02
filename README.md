@@ -1,2 +1,2 @@
-# discord-web-scraping
- Scrapes hackathons and sends a discord notification to server
+# Web Scraping
+ Scrapes hackathons and compares the results to AI hackathon scraper. 
